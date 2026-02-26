@@ -2,7 +2,7 @@
   --bg:#0b0c10;
   --card:#14161f;
   --text:#000000;
-  --muted:#a9afc3;
+  --muted:#000000;
   --line:#262a3a;
   --accent:#7c5cff;
 }
@@ -274,6 +274,7 @@ button:hover{ filter:brightness(1.05); }
   .grid{ grid-template-columns: 1fr; }
   .cards-2{ grid-template-columns: 1fr; }
 }
+
 
 
 

@@ -37,6 +37,7 @@ a:hover{ color:var(--accent); }
   max-width:1050px;
   margin:0 auto;
   padding:22px;
+  padding-top:90px; /* adjust this */
 }
 
 .top{
@@ -272,6 +273,7 @@ button:hover{ filter:brightness(1.05); }
   .grid{ grid-template-columns: 1fr; }
   .cards-2{ grid-template-columns: 1fr; }
 }
+
 
 
 

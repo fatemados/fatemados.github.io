@@ -25,6 +25,7 @@ body{
   background: url("Fatema.jpg") no-repeat fixed;
   background-size: cover;
   background-position: center top;    /* try: top, bottom, left, right */
+  background-position: center 20%;
 
   color:var(--text);
   line-height:1.55;
@@ -273,6 +274,7 @@ button:hover{ filter:brightness(1.05); }
   .grid{ grid-template-columns: 1fr; }
   .cards-2{ grid-template-columns: 1fr; }
 }
+
 
 
 

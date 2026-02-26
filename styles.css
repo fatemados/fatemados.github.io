@@ -18,7 +18,7 @@ body{
     background-image: url('Fatema.jpg'); /* Make sure the filename matches exactly */
     background-size: cover;              /* Scales image to fill the screen */
     background-position: center top;         /* Centers and tops the image */
-    background-position: center 30%;
+   
     background-repeat: no-repeat;        /* Prevents the image from tiling */
     background-attachment: fixed;        /* Optional: Image stays still when scrolling */
 
@@ -273,6 +273,7 @@ button:hover{ filter:brightness(1.05); }
   .grid{ grid-template-columns: 1fr; }
   .cards-2{ grid-template-columns: 1fr; }
 }
+
 
 
 

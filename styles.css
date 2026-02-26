@@ -17,6 +17,14 @@ body{
   line-height:1.55;
 }
 
+body {
+    background-image: url('Fatema.jpg'); /* Make sure the filename matches exactly */
+    background-size: cover;              /* Scales image to fill the screen */
+    background-position: center;         /* Centers the image */
+    background-repeat: no-repeat;        /* Prevents the image from tiling */
+    background-attachment: fixed;        /* Optional: Image stays still when scrolling */
+}
+
 a{ color:var(--text); }
 a:hover{ color:var(--accent); }
 
@@ -82,31 +90,10 @@ a:hover{ color:var(--accent); }
 }
 
 .hero{
-  position: relative;
-  color: white;
-}
-
-.hero::before{
-  content: "";
-  position: absolute;
-  inset: 0;
-  background: rgba(0,0,0,0.5);
-  border-radius:20px;
-}
-
-.hero *{
-  position: relative;
-  z-index: 1;
-}
-
-.hero{
   display:grid;
   grid-template-columns: 1.2fr .8fr;
   gap:16px;
   padding:26px 0 10px;
-  border-radius:20px;
-
-  
 }
 
 .hero h1{
@@ -120,7 +107,6 @@ a:hover{ color:var(--accent); }
   max-width:60ch;
 }
 .hero-cta{ display:flex; gap:12px; flex-wrap:wrap; }
-
 .stats{
   display:flex;
   gap:14px;
@@ -281,6 +267,7 @@ button:hover{ filter:brightness(1.05); }
   .cards-2{ grid-template-columns: 1fr; }
 
 }
+
 
 
 

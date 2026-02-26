@@ -83,6 +83,24 @@ a:hover{ color:var(--accent); }
 }
 
 .hero{
+  position: relative;
+  color: white;
+}
+
+.hero::before{
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0,0,0,0.5);
+  border-radius:20px;
+}
+
+.hero *{
+  position: relative;
+  z-index: 1;
+}
+
+.hero{
   display:grid;
   grid-template-columns: 1.2fr .8fr;
   gap:16px;
@@ -264,6 +282,7 @@ button:hover{ filter:brightness(1.05); }
   .cards-2{ grid-template-columns: 1fr; }
 
 }
+
 
 
 

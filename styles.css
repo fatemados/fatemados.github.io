@@ -13,8 +13,7 @@ html{ scroll-behavior:smooth; }
 body{
   margin:0;
   font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
-  background: url('Fatema.jpeg') no-repeat center center fixed;
-  background-size: cover;
+  background: radial-gradient(1200px 700px at 15% 0%, #151836, var(--bg));
   color:var(--text);
   line-height:1.55;
 }
@@ -90,7 +89,7 @@ a:hover{ color:var(--accent); }
   padding:26px 0 10px;
   border-radius:20px;
 
-  background: url('Fatema.jpeg') center/cover no-repeat;
+  background: url('Fatema.jpg') center/cover no-repeat;
 }
 
 .hero h1{
@@ -265,5 +264,6 @@ button:hover{ filter:brightness(1.05); }
   .cards-2{ grid-template-columns: 1fr; }
 
 }
+
 
 

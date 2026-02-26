@@ -1,10 +1,11 @@
-:root{
-  --bg:#0b0c10;
-  --card:#14161f;
-  --text:#000000;
-  --muted:#000000;
-  --line:#262a3a;
-  --accent:#7c5cff;
+
+:root {
+    --bg: #ffffff;      /* White background */
+    --card: #f4f4f4;    /* Light grey cards */
+    --text: #000000;    /* Black text */
+    --muted: #444444;   /* Dark grey for secondary text */
+    --line: #dddddd;    /* Light lines */
+    --accent: #7c5cff;  /* Keep your purple accent */
 }
 
 *{ box-sizing:border-box; }
@@ -274,6 +275,7 @@ button:hover{ filter:brightness(1.05); }
   .grid{ grid-template-columns: 1fr; }
   .cards-2{ grid-template-columns: 1fr; }
 }
+
 
 
 

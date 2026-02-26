@@ -13,7 +13,14 @@ html{ scroll-behavior:smooth; }
 body{
   margin:0;
   font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
-  background: radial-gradient(1200px 700px at 15% 0%, #151836, var(--bg));
+  <!--background: radial-gradient(1200px 700px at 15% 0%, #151836, var(--bg));-->
+    
+    background-image: url('Fatema.jpg'); /* Make sure the filename matches exactly */
+    background-size: cover;              /* Scales image to fill the screen */
+    background-position: center;         /* Centers the image */
+    background-repeat: no-repeat;        /* Prevents the image from tiling */
+    background-attachment: fixed;        /* Optional: Image stays still when scrolling */
+
   color:var(--text);
   line-height:1.55;
 }
@@ -260,3 +267,4 @@ button:hover{ filter:brightness(1.05); }
   .grid{ grid-template-columns: 1fr; }
   .cards-2{ grid-template-columns: 1fr; }
 }
+

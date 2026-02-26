@@ -17,9 +17,14 @@ body{
     
     background-image: url('Fatema.jpg'); /* Make sure the filename matches exactly */
     background-size: cover;              /* Scales image to fill the screen */
-    background-position: center;         /* Centers the image */
+    background-position: center top;         /* Centers and tops the image */
+    background-position: center 30%;
     background-repeat: no-repeat;        /* Prevents the image from tiling */
     background-attachment: fixed;        /* Optional: Image stays still when scrolling */
+
+  background: url("background.jpg") no-repeat fixed;
+  background-size: cover;
+  background-position: center top;    /* try: top, bottom, left, right */
 
   color:var(--text);
   line-height:1.55;
@@ -267,5 +272,6 @@ button:hover{ filter:brightness(1.05); }
   .grid{ grid-template-columns: 1fr; }
   .cards-2{ grid-template-columns: 1fr; }
 }
+
 
 

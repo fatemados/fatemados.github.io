@@ -88,6 +88,9 @@ a:hover{ color:var(--accent); }
   grid-template-columns: 1.2fr .8fr;
   gap:16px;
   padding:26px 0 10px;
+  border-radius:20px;
+
+  background: url('Fatema.jpeg') center/cover no-repeat;
 }
 
 .hero h1{
@@ -262,4 +265,5 @@ button:hover{ filter:brightness(1.05); }
   .cards-2{ grid-template-columns: 1fr; }
 
 }
+
 

@@ -22,7 +22,7 @@ body{
     background-repeat: no-repeat;        /* Prevents the image from tiling */
     background-attachment: fixed;        /* Optional: Image stays still when scrolling */
 
-  background: url("background.jpg") no-repeat fixed;
+  background: url("Fatema.jpg") no-repeat fixed;
   background-size: cover;
   background-position: center top;    /* try: top, bottom, left, right */
 
@@ -273,6 +273,7 @@ button:hover{ filter:brightness(1.05); }
   .grid{ grid-template-columns: 1fr; }
   .cards-2{ grid-template-columns: 1fr; }
 }
+
 
 
 

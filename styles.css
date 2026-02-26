@@ -14,15 +14,8 @@ body{
   margin:0;
   font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
   background: radial-gradient(1200px 700px at 15% 0%, #151836, var(--bg));
+  color:var(--text);
   line-height:1.55;
-}
-
-body {
-    background-image: url('Fatema.jpg'); /* Make sure the filename matches exactly */
-    background-size: cover;              /* Scales image to fill the screen */
-    background-position: center;         /* Centers the image */
-    background-repeat: no-repeat;        /* Prevents the image from tiling */
-    background-attachment: fixed;        /* Optional: Image stays still when scrolling */
 }
 
 a{ color:var(--text); }
@@ -107,6 +100,7 @@ a:hover{ color:var(--accent); }
   max-width:60ch;
 }
 .hero-cta{ display:flex; gap:12px; flex-wrap:wrap; }
+
 .stats{
   display:flex;
   gap:14px;
@@ -265,14 +259,4 @@ button:hover{ filter:brightness(1.05); }
 @media (max-width: 520px){
   .grid{ grid-template-columns: 1fr; }
   .cards-2{ grid-template-columns: 1fr; }
-
 }
-
-
-
-
-
-
-
-
-
